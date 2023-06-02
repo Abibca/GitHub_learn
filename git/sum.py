@@ -3,4 +3,5 @@ def sum(n):
         sum1=0
         sum1=sum1+i
     print(sum1)
+    #printing the sum of values
 sum(5)
