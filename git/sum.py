@@ -1,7 +1,6 @@
-def sum(n):
-    for i in range(0,n):
-        sum1=0
-        sum1=sum1+i
-    print(sum1)
-    #printing the sum of values
-sum(5)
+n = int(input())
+total_sum = 0
+for i in range(0,n+1):
+    total_sum += i
+print(total_sum)
+
